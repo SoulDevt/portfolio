@@ -11,7 +11,7 @@ html, body {
     font-family: Helvetica, sans-serif;
   }
   body {
-    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+
   }
   section#timeline {
     width: 80%;
@@ -110,19 +110,28 @@ html, body {
     left: -5px;
   }
   section#timeline article:nth-child(1) div.inner h2 {
-    background: #e74c3c;
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   }
   section#timeline article:nth-child(1) div.inner h2:after {
     background: #e74c3c;
   }
   section#timeline article:nth-child(2) div.inner h2 {
-    background: #2ecc71;
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   }
   section#timeline article:nth-child(2) div.inner h2:after {
     background: #2ecc71;
   }
   section#timeline article:nth-child(3) div.inner h2 {
-    background: #e67e22;
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   }
   section#timeline article:nth-child(3) div.inner h2:after {
     background: #e67e22;
